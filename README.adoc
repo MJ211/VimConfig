@@ -1,0 +1,24 @@
+:author: Michal Jedrzejkiewicz
+:icons: font
+
+= VimConfig
+
+My custom vim configuration :^) +
+Before following the installation guide, download and install the newest Vim. +
+Check this tutorial: https://www.vim.org/git.php
+
+== Installation:
+. git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+. git clone https://github.com/MJ211/VimConfig.git
+. cd VimConfig
+. mkdir ~/.vim/colors
+. cp apprentice.vim ~/.vim/colors
+. cp .vimrc ~
+. sudo apt install bat
+. export BAT_THEME="apprentice"
+. vim
+. :PluginInstall
+. Done!
+
+Note: `bat` is needed for fzf preview higlighting 
+                    
